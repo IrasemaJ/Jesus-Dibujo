@@ -23,7 +23,10 @@ function clearCanvas() {
 //ALUMNO REALIZA
 function draw() {
 
-  
+
+  if (mouseIsPressed) {
+    
+  }
 }
 
 //ALUMNO REALIZA
@@ -33,7 +36,9 @@ function classifyCanvas() {
 
 //ALUMNO REALIZA
 function gotResult(error, results) {
-  
+  if (error) {
+    console.error(error);
+  }
 }
 
 
